@@ -1,0 +1,19 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eip55": "^2.1.0",
+    "elliptic": "^6.5.4",
+    "js-sha3": "^0.8.0",
+    "keccak256": "^1.0.6"
+  }
+}
