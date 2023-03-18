@@ -3,13 +3,19 @@ This is a node application creating EIP55 compatible wallets.
 
 ## Install
 
+#Global
 ```npm
 npm install -g cryptocris_ethereum_wallet
+```
+#Local
+```npm
+npm install cryptocris_ethereum_wallet
 ```
 
 # Usage
 
 ```bash
+ // on bash you can try the following after Global instalation
  cryptocris_ethereum_wallet
 
  Response:
@@ -24,7 +30,7 @@ e',
 ```
 
 ```node
-/////////////////////////////////// Start of example //////////////////////////////////
+//////////////////// Start of example with local instalation using node ////////////////////
 
 // We need to require the library
 let Wallet = require('cryptocris_ethereum_wallet/src/index.js');
