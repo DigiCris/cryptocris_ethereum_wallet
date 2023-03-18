@@ -2,9 +2,9 @@
 let Wallet = require('../src/index.js');
 
 
-//Llamando a la creación de wallets determinista
-Wallet.deterministicWallet('password',3);
+//calling the deterministic account creation
+Wallet.createNewWallet();
 
 console.log(Wallet.account);
 
-/////////////////////////////////////// Termina el Ejemplo /////////////////////////////////////
+/////////////////////////////////////// example ends /////////////////////////////////////

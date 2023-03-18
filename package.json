@@ -1,5 +1,5 @@
 {
-  "name": "ethereum_wallet",
+  "name": "cryptocris_ethereum_wallet",
   "version": "1.0.0",
   "description": "This is a node application creating EIP55 compatible wallets.",
   "main": "index.js",
